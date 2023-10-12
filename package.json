@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "name": "mono-repo-prueba-fullstack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "turbo dev",
+        "build": "turbo build"
+    },
+    "license": "MIT",
+    "workspaces": [
+        "apps/*"
+    ],
+    "devDependencies": {
+        "turbo": "^1.10.15"
+    }
+}
